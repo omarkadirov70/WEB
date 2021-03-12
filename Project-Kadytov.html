@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Project-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/ef6bdf5ef216552c7e9869841e891ca0?family=Arial+Rounded+MT+Bold"
+        rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="shortcut icon" href="photodrawwhite.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <title>District X</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <ul>
+                <li><a href="#" class="decor">Home</a></li>
+                <li><a href="#" class="decor">Boys</a></li>
+                <li><a href="#"><img src="shortcut-script-app.png" alt=""></a></li>
+                <li><a href="#" class="decor">Girls</a></li>
+                <li><a href="#" class="decor">Customize</a></li>
+            </ul>
+        </div>
+        <div class="overlay" id="navbar">
+            <div class="menu">
+                <a href="#">HOME</a>
+                <a href="#">BOYS</a>
+                <a href="#">GIRLS</a>
+                <a href="#">CUSTOMIZE</a>
+            </div>
+            <button class="clbtn" onclick="hide()">&times;</button>
+        </div>
+
+        <span onclick="show()" class="opbtn"><img src="shortcut-script-app.png" alt=""></span>
+    </header>
+
+    <main>
+        <div class="rectangle"></div>
+        <div class="eclipse"></div>
+
+        <div class="block1">
+            <div class="txt-bt-box">
+                <div class="txt-block1">
+                    <h1>A whole <span class="span">new experience</span> for the long walks</h1>
+                </div>
+
+                <div class="btn-block1">
+                    <div class="button-block1">
+                        <div class="btn" id="white-btn">
+                            <button id="btn-style-wh">ru</button>
+                        </div>
+
+                        <div class="btn" id="black-btn">
+                            <button href="" id="btn-style-bl">en</button>
+                        </div>
+                    </div>
+
+                    <div class="button-block1">
+                        <div class="btn" id="black-btn">
+                            <button href="" id="btn-style-bl">light</button>
+                        </div>
+
+                        <div class="btn" id="white-btn">
+                            <button href="" id="btn-style-wh">dark</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sneaker-box">
+                <img src="airj.png" alt="">
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------->
+        <div class="block2">
+
+            <div class="txt-block2">
+                <h1>Our advantages</h1>
+            </div>
+
+            <div class="container">
+                <div class="img-card">
+                    <img src="andres.jpg" alt="">
+                    <div class="content">
+                        <div class="content-txt-box">
+                            <h2 class="content-h2">Design</h2>
+                            <p class="content-p">Unique style and design will make people admire you. A real indicator
+                                of
+                                minimalism and
+                                modern trends.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-card">
+                    <img src="jeff.jpg" alt="">
+                    <div class="content">
+                        <div class="content-txt-box">
+                            <h2 class="content-h2">Comfort</h2>
+                            <p class="content-p">High-quality material will make you feel the maximum comfort when
+                                using.
+                                Only breathable and
+                                lightweight material coverage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-card">
+                    <img src="karsten.jpg" alt="">
+                    <div class="content">
+                        <div class="content-txt-box">
+                            <h2 class="content-h2">Quality</h2>
+                            <p class="content-p">High-quality material will make you feel the maximum comfort when
+                                using.
+                                Only breathable and
+                                lightweight material coverage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-------------------------------------------------------------------------------------------->
+
+        <div class="block3">
+            <div class="txt-block3">
+                <h1>Our products</h1>
+            </div>
+
+            <div class="im3d">
+                <div class="im3d-box">
+                    <div class="im3d-box-txt">
+                        <h1>Air max</h1>
+                    </div>
+                    <div class="im3d-element">
+                        <model-viewer src="/im3d/scene.gltf" camera-controls auto-rotate></model-viewer>
+                    </div>
+                </div>
+
+                <div class="im3d-box">
+                    <div class="im3d-box-txt">
+                        <h1>Air Jordan 1</h1>
+                    </div>
+                    <div class="im3d-element">
+                        <model-viewer src="/im3d2/scene.gltf" camera-controls auto-rotate></model-viewer>
+                    </div>
+                </div>
+
+                <div class="im3d-box">
+                    <div class="im3d-box-txt">
+                        <h1>Air Zoom Pegasus</h1>
+                    </div>
+                    <div class="im3d-element">
+                        <model-viewer src="/im3d3/scene.gltf" camera-controls auto-rotate></model-viewer>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------------------------------------->
+
+        <div class="block4">
+
+            <div class="txt-block4">
+                <h1>Materials</h1>
+            </div>
+
+            <div class="material-block">
+                <div class="photo">
+                    <p><img src="Artificial-leather.png" alt="" id="ph"></p>
+                    <div class="p">
+                        <p id="wh">Artificial</p>
+                        <p id="wh">leather</p>
+                    </div>
+                </div>
+
+                <div class="photo">
+                    <p><img src="Duralon.png" alt="" id="ph"></p>
+                    <div class="p">
+                        <p id="wh">Duralon</p>
+                    </div>
+                </div>
+
+                <div class="photo">
+                    <p><img src="Philo.png" alt="" id="ph"></p>
+                    <div class="p">
+                        <p id="bl">Philo</p>
+                    </div>
+                </div>
+
+                <div class="photo">
+                    <p><img src="Mesh-materials.png" alt="" id="ph"></p>
+                    <div class="p">
+                        <p id="bl">Mesh</p>
+                        <p id="bl">materials</p>
+                    </div>
+                </div>
+
+                <div class="photo">
+                    <p><img src="Synthetic-fiber.png" alt="" id="ph"></p>
+                    <div class="p">
+                        <p id="bl">Synthetic</p>
+                        <p id="bl">fiber</p>
+                    </div>
+                </div>
+
+                <div class="photo">
+                    <p><img src="Rubber.png" alt="" id="ph"></p>
+                    <div class="p">
+                        <p id="wh">Rubber</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="block5">
+            <div class="main center">
+                <div class="box center">
+                    <h1 class="heading">Contact Us</h1>
+                    <input type="email" name="" id="" class="input" placeholder="Your name">
+                    <div class="gender center">
+                        <input type="radio" name="gender" id="">
+                        <input type="radio" name="gender" id="">
+                    </div>
+                    <input type="password" name="" class="input" placeholder="Email">
+                    <input type="password" name="" class="input" placeholder="Massage">
+                    <button class="btnn">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="s4">
+                    <a href="https://www.instagram.com/m.0des.t/" class="iconbtn fab fa-instagram"></a>
+                    <a href="https://vk.com/o_r_e_0" id="iconbtn" class="iconbtn fab fa-vk"></a>
+                    <a href="www.whatsapp.com" class="iconbtn fab fa-whatsapp"></a>
+                </div>
+                <div class="footer-txt">
+                    <p>© 2021 CATERPILLAR ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="Burger.js"></script>
+</body>
+
+</html>
